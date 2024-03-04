@@ -9,7 +9,7 @@ import serial
 #read data from microbit
 ser = serial.Serial()
 ser.baudrate = 115200
-ser.port = "COM6"
+ser.port = "COM12"
 ser.open()
 
 #connect to database
@@ -53,7 +53,7 @@ while True:
         x = 2
     if (x == 2 and mb_angle < 180 and mb_angle > 0 ):
         x = 1
-        rep = rep + 1
+        int(rep) = rep + 1
         print(rep)
      
         ref.update({"Reps":rep})
