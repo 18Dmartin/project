@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-03-12T10:10:08.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VG84oII1auGkiFCEO_xL" version="23.1.6" type="device">
+  <diagram name="Page-1" id="rWFyJIwmSNFOQI-urW_L">
+    <mxGraphModel dx="265" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-2" target="7TJvN-rGTewOSTEpPv7Q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-2" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-3" target="7TJvN-rGTewOSTEpPv7Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-3" value="import time&lt;br&gt;import firebase_admin&lt;br&gt;&amp;nbsp;import serial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-5" target="7TJvN-rGTewOSTEpPv7Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;from firebase_admin import credentials&lt;/div&gt;&lt;div&gt;from firebase_admin import db&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-8" target="7TJvN-rGTewOSTEpPv7Q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-8" value="&lt;div&gt;&lt;div&gt;import CaloriesandMet (file)&lt;/div&gt;&lt;div&gt;import Gender (file)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-10" target="7TJvN-rGTewOSTEpPv7Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-10" value="&lt;div&gt;b = Gender.maleorfemale()&lt;/div&gt;&lt;div&gt;a = CaloriesandMet.Caloriecalc(b)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-12" target="7TJvN-rGTewOSTEpPv7Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-12" value="ser is serial.Serial()&lt;br&gt;&lt;div&gt;&lt;div&gt;ser.baudrate = 115200&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-14" target="7TJvN-rGTewOSTEpPv7Q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-14" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;ser.port = COM14&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;ser . open()&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-16" target="7TJvN-rGTewOSTEpPv7Q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-16" value="ser is serial.Serial()&lt;br&gt;&lt;div&gt;&lt;div&gt;ser.baudrate = 115200&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-18" target="7TJvN-rGTewOSTEpPv7Q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-18" value="ser is serial.Serial()&lt;br&gt;&lt;div&gt;&lt;div&gt;ser.baudrate = 115200&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-20" target="7TJvN-rGTewOSTEpPv7Q-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-20" value="ref = db.reference()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-22" target="7TJvN-rGTewOSTEpPv7Q-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-22" value="accountname = input(&quot;\nWhat is your name: &quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TJvN-rGTewOSTEpPv7Q-24" target="7TJvN-rGTewOSTEpPv7Q-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-24" value="accountname = accountname.lower()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TJvN-rGTewOSTEpPv7Q-27" value="accountname = accountname.lower()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
